@@ -330,7 +330,7 @@ one, which combines numbers into increasingly larger expression trees.
 ></details>
 ></br>
 
-## Anagrams
+## Anagrams 🔥
 
 What do the words *Suisse* and *Issues* have in common? They are *anagrams* of each other! Two words are called anagrams if they have the same letters, albeit in a different order. Sentences can also be anagrams of each other:
 

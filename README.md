@@ -608,7 +608,7 @@ The code we wrote above is slow, and not very usable. There are multiple reason 
 
 There are fixes for each of these:
 
-1. Use *memoization* — we will learn about this in a few weeks, but if you’re curious you can start using it now!
+1. Use *memoization* — do not compute the same result several times. We will learn more about memoization in the lecture next week, but if you’re curious you can start using it now!
 
 2. Instead of trying all permutations, try all words; this requires writing a function to check that a multiset is a subset of another one.
 

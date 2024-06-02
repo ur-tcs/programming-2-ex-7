@@ -552,19 +552,19 @@ We have included the following wordlists:
 
     Source: Browne, C., Culligan, B. and Phillips, J. (2013) [The New General Service List](http://www.newgeneralservicelist.org/)
 
-- fr-edu: Liste eduscol (1458 French words)
+- `fr-edu`: Liste eduscol (1458 French words)
 
     Source: [Liste de fréquence lexicale](https://eduscol.education.fr/186/liste-de-frequence-lexicale), Ministère français de l’éducation nationale et de la jeunesse.
 
-- en-debian: Package wamerican (45376 English words)
+- `en-debian`: Package wamerican (45376 English words)
 
     Source: SCOWL, [Spell Checker Oriented Word Lists](http://wordlist.aspell.net/)
 
-- en-able: Enhanced North American Benchmark LExicon (172823 English words)
+- `en-able`: Enhanced North American Benchmark LExicon (172823 English words)
 
     Source: [National Puzzlers’ League](https://www.puzzlers.org/)
 
-- fr-lp: Letterpress (336528 French words)
+- `fr-lp`: Letterpress (336528 French words)
 
     Source: [Letterpress repository](https://github.com/lorenbrichter/Words)
 

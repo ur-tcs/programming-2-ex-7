@@ -332,8 +332,7 @@ one, which combines numbers into increasingly larger expression trees.
 
 What do the words *Suisse* and *Issues* have in common? They are *anagrams* of each other! Two words are called anagrams if they have the same letters, albeit in a different order. Sentences can also be anagrams of each other:
 
-Finding anagrams is a tricky combinatorial problem: the letters in a sentence like [I AM LORD VOLDEMORT](https://www.youtube.com/watch?v=EEFsJ-43pnA), with 19 characters, can be reordered in 19!
-19! ways, which is…
+Finding anagrams is a tricky combinatorial problem: the letters in a sentence like [I AM LORD VOLDEMORT](https://www.youtube.com/watch?v=EEFsJ-43pnA), with 19 characters, can be reordered in 19! ways, which is…
 
 ```scala
 scala> def fact(n: BigInt): BigInt =

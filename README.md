@@ -143,7 +143,7 @@ Write two functions `longestWord` which, given a wordlist (a collection of words
 
 **STEP-BY-STEP-HINTS**
 
-Let’s represent collections of letters by converting them to uppercase an sorting them, so that `"Polytechnique"` becomes `"CEEHILNOPQTUY"`. We call `"Polytechnique"` the “original” word, and `"CEEHILNOPQTUY"` the “scrambled” word.
+Let’s represent collections of letters by converting them to uppercase and sorting them, so that `"Polytechnique"` becomes `"CEEHILNOPQTUY"`. We call `"Polytechnique"` the “original” word, and `"CEEHILNOPQTUY"` the “scrambled” word.
 
 1. Write a function scramble that transforms a single word into its scrambled representation.
 

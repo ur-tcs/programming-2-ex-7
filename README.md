@@ -426,7 +426,7 @@ scala> println(scramble("tea"))
 AET
 ```
 
-The key observation here is that two words are anagrams if the multisets of their letters are equal. In this lab, we will use a different canonical representation of multisets, called *occurrence lists*: each word will be transformed into a unique list indicating how often each character appears (not unlike the lists in the Huffman lab that counted words). For example:
+The key observation here is that two words are anagrams if the multisets of their letters are equal. In this lab, we will use a different canonical representation of multisets, called *occurrence lists*: each word will be transformed into a unique list indicating how often each character appears. For example:
 
 ```scala
 scala> import anagrams.Anagrams.*

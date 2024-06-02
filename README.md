@@ -123,10 +123,6 @@ The whole pattern must match the whole string: partial matches are not allowed.
 
 Based on your implementation, can you prove that a pattern that does not contain wildcards matches only itself? That “*” matches everything? That a pattern with only `?` matches all strings of the same length as the pattern? That repeated `*` can be replaced by single `*`?
 
-> **NOTE:**
->
->If you plug in your new function into your copy of find, you’ll get an even better file-searcher! It should be a very straightforward refactoring — just change the function passed to the higher-order find function that we wrote in the last callback.
-
 ## Des chiffres et des lettres
 
 *“Des chiffres et des lettres”* is a popular TV show in French-speaking countries.
@@ -318,7 +314,7 @@ one, which combines numbers into increasingly larger expression trees.
 
     >**HINT:**
     >
-    >Since the steps above are only suggestions, we have provided only integration tests (tests for `leCompteEstBon`), and no unit tests for intermediate functions. Make sure to write a few unit tests to make sure you understand what each function does before starting! (And feel free to share them with other students on Ed!)
+    >Since the steps above are only suggestions, we have provided only integration tests (tests for `leCompteEstBon`), and no unit tests for intermediate functions. Make sure to write a few unit tests to make sure you understand what each function does before starting! (And feel free to share them with other students!)
     
 </br>
 

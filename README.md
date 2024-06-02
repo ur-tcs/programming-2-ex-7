@@ -568,6 +568,10 @@ We have included the following wordlists:
 
     Source: [Letterpress repository](https://github.com/lorenbrichter/Words)
 
+- `de-git`: wordlist-german (61269 German words)
+
+    Source: [MarvinWendt](https://gist.github.com/MarvinJWendt/2f4f4154b8ae218600eb091a5706b5f4)
+
 Here are some examples in word-by-word mode:
 
 ```scala

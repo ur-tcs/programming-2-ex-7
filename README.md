@@ -2,7 +2,9 @@
 
 Exercises marked with ⭐️ are the most important ones. Exercises marked with 🔥 are the most challenging ones. You do not need to complete all exercises to succeed in this class, and you do not need to do all exercises in the order they are written.
 
-Scala does not have `for` loops; instead, it has `for` comprehensions. Comprehensions are particularly powerful when you need to combine and filter results from multiple collections. Let’s see some examples!
+In function programming, we do not use `for` loops; but instead, there are `for` comprehensions! Comprehensions are particularly powerful when you need to combine and filter results from multiple collections. Let’s see some examples!
+
+__Your are allowed to copy/clone/fork this repository, but not to share solutions of the exercise in any public repository or web page.__
 
 ## Warm-up ⭐️
 

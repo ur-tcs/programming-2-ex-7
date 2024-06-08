@@ -36,7 +36,7 @@ For example `List("a", "bc", "def", "ghij")` should become `List("A", "BC", "DEF
 >
 >When using internationalization-related methods, such as `.toUpperCase(`*locale*`)` or `.toLowerCase(`*locale*`)`, always be careful about which [*locale*](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) parameter you use.
 >
->If omitted, locale defaults to the user’s current locale. On some computers, this will create issues with our tests: for example, on a a Turkish system, calling `"TITLE".toLowerCase()` will yield `"tıtle"`, not `"title"` (you can reproduce this behavior by passing `locale = Locale("tr")`.
+>If omitted, locale defaults to the user’s current locale. On some computers, this will create issues with our tests: for example, on a Turkish system, calling `"TITLE".toLowerCase()` will yield `"tıtle"`, not `"title"` (you can reproduce this behavior by passing `locale = Locale("tr")`.
 >
 >Locale-related bugs are a common source of issues in real-world apps — think hard about the right value, and if writing locale-independent code, use the standardized invariant locale [Locale.ROOT](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html#ROOT).
 
@@ -448,7 +448,7 @@ The integer in each pair denotes how many times a character appears in a particu
 
 ### Computing Occurrence Lists
 
-1. Implement the function `computeOccurrenceList` that takes a string, *normalizes* it, and returns a the corresponding occurrence list. For your convenience, we have provided a function `normalizeString` that removes removes diacritics (accents) and non-alphabetic characters (punctuation, spaces, etc.), so you only have to construct the multiset representation.
+1. Implement the function `computeOccurrenceList` that takes a string, *normalizes* it, and returns a the corresponding occurrence list. For your convenience, we have provided a function `normalizeString` that removes diacritics (accents) and non-alphabetic characters (punctuation, spaces, etc.), so you only have to construct the multiset representation.
 
 <details>
     <summary>HINT</summary>
@@ -519,7 +519,9 @@ With this, you have all pieces in hand to implement the `sentenceAnagrams`! Star
 
 <details>
     <summary>HINT</summary>
+    
         Using `for` comprehensions helps in formulate the solution of this problem elegantly.
+
 </details>
 
 Test the `sentenceAnagrams` method on short sentences, no more than 10 characters.

@@ -518,9 +518,9 @@ The precondition for the `subtract` method is that the occurrence list `y` is a 
 With this, you have all pieces in hand to implement the `sentenceAnagrams`! Start by thinking on paper, and refrain from coding until you have a clear idea of what the algorithm should do.
 
 <details>
-    <summary>HINT</summary>
-    
-        Using `for` comprehensions helps in formulate the solution of this problem elegantly.
+<summary>HINT</summary>
+
+Using `for` comprehensions helps in formulate the solution of this problem elegantly.
 
 </details>
 

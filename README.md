@@ -95,7 +95,7 @@ def triangles(edges: DirectedGraph): List[(NodeId, NodeId, NodeId)] =
 
 ## Glob matching (ungraded callback to `find`!)
 
-The real Unix `find` command takes a “glob pattern” for its `-name` filter: it supports *wildcards* like `?` and `*` to allow for partial matches. For example,
+The real Unix `find` command (that has not been part of the lecture yet) takes a “glob pattern” for its `-name` filter: it supports *wildcards* like `?` and `*` to allow for partial matches. For example,
 
 - find `-name 2023-*.jpg` finds all files whose name starts with `2023-` and ends with `.jpg`, and
 - find `-name 20??-*.jp*g` finds all files whose name starts with `20`, then has two arbitrary letters, then a dash, any letter, and finally `.jp` followed by anything followed by `g`. This would allow users to find `2002-03-18T11:15.jpg` or `2002-03-18 modified.jpeg`, for example.
@@ -450,17 +450,17 @@ The integer in each pair denotes how many times a character appears in a particu
 
 1. Implement the function `computeOccurrenceList` that takes a string, *normalizes* it, and returns a the corresponding occurrence list. For your convenience, we have provided a function `normalizeString` that removes diacritics (accents) and non-alphabetic characters (punctuation, spaces, etc.), so you only have to construct the multiset representation.
 
-<details>
-    <summary>HINT</summary>
-    Use the List and Map APIs! The functions groupBy, map, and sorted may come in handy.
-</details>
+    <details>
+        <summary>HINT</summary>
+        Use the List and Map APIs! The functions groupBy, map, and sorted may come in handy.
+    </details><br>
 
-Implement the function `sentenceOccurrences` that computes the occurrence list of an entire sentences.
+2. Implement the function `sentenceOccurrences` that computes the occurrence list of an entire sentences.
 
-<details>
-    <summary>HINT</summary>
-    You can concatenate the words of the sentence into a single word and then reuse the method computeOccurrenceList.
-</details>
+    <details>
+        <summary>HINT</summary>
+        You can concatenate the words of the sentence into a single word and then reuse the method computeOccurrenceList.
+    </details>
 
 ### Computing anagrams of a word
 

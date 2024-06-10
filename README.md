@@ -56,7 +56,8 @@ What should happen if `n == 1`? How about `n == 0`?
 
 <details>
     <summary>SOLUTION</summary>
-    For `n == 1`, the resulting list is the same as the source string. For `n == 0`, the resulting list is empty.
+
+For `n == 1`, the resulting list is the same as the source string. For `n == 0`, the resulting list is empty.
 </details><br/>
 
 ### *All together now*
@@ -151,7 +152,8 @@ Let’s represent collections of letters by converting them to uppercase and sor
 
     <details>
         <summary>HINT</summary>
-        You may find `.toUpperCase()` and `.sorted` useful.
+        
+    You may find `.toUpperCase()` and `.sorted` useful.
     </details></br>
  
 2. Write a function scrambleList that transforms a wordlist into a Map from scrambled words to sets of original words.
@@ -166,7 +168,8 @@ Let’s represent collections of letters by converting them to uppercase and sor
 
     <details>
         <summary>HINT</summary>
-        Consider using `.groupBy` to create the map.
+    
+    Consider using `.groupBy` to create the map.
     </details></br>
 
 3. Write a function exactWord that returns all words of a wordlist that can be formed by using all letters from a given collection of letters.
@@ -324,7 +327,8 @@ one, which combines numbers into increasingly larger expression trees.
 >
 ><details>
 >   <summary>HINT</summary>
->   Focus on `allTrees`. Does it really have to return *all* trees? For example, given the set `List(2, 2)`, is it valuable to return both `Add(Num(2)`, `Num(2))` and `Mul(Num(2)`, `Num(2))`? Similarly, on the set `List(2, 3, 4)`, is it valuable to keep both `2 * 3 + 4` and `3 * 4 - 2`? Our solution keeps just one of each, and this speeds it up from multiple seconds per problem to just a few milliseconds.
+>   
+> Focus on `allTrees`. Does it really have to return *all* trees? For example, given the set `List(2, 2)`, is it valuable to return both `Add(Num(2)`, `Num(2))` and `Mul(Num(2)`, `Num(2))`? Similarly, on the set `List(2, 3, 4)`, is it valuable to keep both `2 * 3 + 4` and `3 * 4 - 2`? Our solution keeps just one of each, and this speeds it up from multiple seconds per problem to just a few milliseconds.
 ></details>
 ></br>
 
